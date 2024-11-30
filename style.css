@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "lato" ,sans-serif;
+    font-weight: 400;
+    font-size: 16PX;
+    line-height: 1.7;
+}
+.header{
+    height: 95vh;
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+}
+.header::before{
+    content: "";
+    background-image: linear-gradint(rgb(114, 195, 85),rgba(0, 0, 0, 0.798), #000),  url(nature.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+}
